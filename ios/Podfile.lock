@@ -1,0 +1,37 @@
+PODS:
+  - Flutter (1.0.0)
+  - iOSMcuManagerLibrary (1.6):
+    - SwiftCBOR (= 0.4.4)
+  - mcumgr_flutter (0.0.2):
+    - Flutter
+    - iOSMcuManagerLibrary (= 1.6)
+    - SwiftProtobuf
+  - SwiftCBOR (0.4.4)
+  - SwiftProtobuf (1.26.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - mcumgr_flutter (from `.symlinks/plugins/mcumgr_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - iOSMcuManagerLibrary
+    - SwiftCBOR
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mcumgr_flutter:
+    :path: ".symlinks/plugins/mcumgr_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  iOSMcuManagerLibrary: 4102a4595be1c69e5286d7f1520a733c82c30b0a
+  mcumgr_flutter: 097e59bec5917b527ba6d095da57bdaed2de1fa2
+  SwiftCBOR: ce5354ec8b660da2d6fc754462881119dbe1f963
+  SwiftProtobuf: 5e8349171e7c2f88f5b9e683cb3cb79d1dc780b3
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.15.2
